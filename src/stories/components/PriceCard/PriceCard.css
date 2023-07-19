@@ -1,0 +1,58 @@
+.pricecard-container {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 8px;
+  background: #fff;
+}
+.price-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 317px;
+}
+.price {
+  color: #232d42;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 52px */
+}
+.price-month {
+  color: #8a92a6;
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.plan {
+  color: #232d42;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 29.9px */
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #8a92a6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+}

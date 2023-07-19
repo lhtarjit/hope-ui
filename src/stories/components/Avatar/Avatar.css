@@ -1,0 +1,39 @@
+.avatar {
+  display: inline-flex;
+  padding: 12px 11px 11px 11px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: #e9ecef;
+  color: #444fbb;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.avatar-small {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar-medium {
+  width: 40px;
+  height: 40px;
+}
+
+.avatar-large {
+  width: 60px;
+  height: 60px;
+}
+
+.stacked {
+  flex-direction: column;
+}
+
+.stacked .avatar {
+  margin-left: 40px; /* Adjust the spacing between stacked avatars */
+}

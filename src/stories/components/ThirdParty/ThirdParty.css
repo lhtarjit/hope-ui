@@ -1,0 +1,52 @@
+.tpcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: fit-content;
+  align-items: center;
+}
+
+.line1 {
+  color: #232d42;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+}
+
+.line2 {
+  color: #232d42;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+}
+
+.line3 {
+  color: #3a57e8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  margin-left: 4px;
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  filter: drop-shadow(0px 4px 8px rgba(0, 16, 41, 0.1));
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.line {
+  display: flex;
+}

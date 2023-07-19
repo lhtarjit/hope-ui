@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 24px;
+}
+
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.sign-in {
+  color: #000;
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 42.9px */
+}
+
+.sign-in-content {
+  color: #8a92a6;
+  /* H6 16px Regular Inter */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+}
+
+.username {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #8a92a6;
+}
+
+.password {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: #8a92a6;
+}
+
+.forgot-password {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.forgot-password-text {
+  color: #3a57e8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%; /* 28px */
+}
+
+.primary-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.agree-conditions {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-items: start;
+}
+
+.logo {
+  height: 28px;
+  width: 28px;
+}
+
+.logo-text {
+  color: #232d42;
+  font-family: Inter;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 42.9px */
+}
+
+.tp-container {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+}
